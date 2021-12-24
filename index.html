@@ -20,8 +20,8 @@
   
   <body>
 
-    <!--NAVBAR BAŞLANGIÇ-->
-
+  <!--NAVBAR BAŞLANGIÇ-->
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#" style="margin-left: 20px;">Çerkesler Hakkında</a>
@@ -30,33 +30,53 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#anasayfa">Ana Sayfa</a>
+                <li class="nav-item active">
+                    <a  class="nav-link" aria-current="page" href="#anasayfa">Ana Sayfa <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#cerkesler">Çerkesler</a>
+                    <a  class="nav-link" aria-current="page" href="#cerkesler">Çerkesler</a>
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#cerkes soykirimi">Çerkes Soykırımı</a>
+                    <a  class="nav-link" aria-current="page" href="#cerkessoykirimi">Çerkes Soykırımı</a>
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#galeri">Galeri</a>
+                    <a  class="nav-link" aria-current="page" href="#galeri">Galeri</a>
                 </li>
                 <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#iletisim">İletişim</a>
+                    <a  class="nav-link" aria-current="page" href="#iletisim">İletişim</a>
                 </li>
             </ul>
           </div>
         </div>
     </nav>
+    
 
-    <!--NAVBAR BİTİŞ-->
+  <!--NAVBAR BİTİŞ-->
 
+<!--ANA SAYFA BAŞLANGIÇ-->
+  <section class="p-1" id="anasayfa" style="background-color: #b5b897;"></section>
+<!--ANA SAYFA BİTİŞ-->    
 
-    <!--ANA SAYFA BAŞLANGIÇ-->
+    <!--ÇERKESLER BAŞLANGIÇ-->
 
-    <section class="p-5" style="background-color: #b5b897;">
+    <section class="p-5"  id="cerkesler" style="background-color: #b5b897;">
   
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <br />
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#anasayfa">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Çerkesler</li>
+              </ol>
+            </nav>
+  
+          </div>
+        </div>
+      </div>
+
       <div class="container">
         
         <div class="row">
@@ -72,12 +92,30 @@
       </div>
     </section>
 
-    <!--ANA SAYFA BİTİŞ-->
+    <!--ÇERKESLER BİTİŞ-->
 
 
     <!--ÇERKES SOYKIRIMI BAŞLANGIÇ-->
     
-    <section class="p-5" style="background-color: #b5b897;">
+    <section  class="p-5" id="cerkessoykirimi" style="background-color: #b5b897;">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <br />
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#anasayfa">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Çerkes Soykırımı</li>
+              </ol>
+            </nav>
+  
+          </div>
+        </div>
+      </div>
+
+
       <div class="container" >
           <h3 class="mb-5 font-weight-bold" style="padding-bottom: 30px; padding-top: 30px; background-color: rgba(0,0,0, .6); box-shadow: 0px 0px 10px 3px grey; text-align: center; color: white; border-radius: 3px;">-ÇERKES SOYKIRIMI-</h3>
            
@@ -113,7 +151,24 @@
 
     <!--GALERİ BAŞLANGIÇ-->
 
-    <section class="p-5 text-center galeri">
+    <section  class="p-5 text-center galeri" id="galeri">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <br />
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#anasayfa">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Galeri</li>
+              </ol>
+            </nav>
+  
+          </div>
+        </div>
+      </div>
+
       <div class="container" >
           <h3 class="mb-5 font-weight-bold" style="padding-bottom: 30px; padding-top: 30px; background-color: rgba(0,0,0, .6); box-shadow: 0px 0px 10px 3px grey; text-align: center; color: white; border-radius: 3px;">-GALERİ-</h3>
 
@@ -245,11 +300,27 @@
 
     <!--İLETİŞİM BAŞLANGIÇ-->
 
-    <section class="p-5 text-center galeri">
+    <section  class="p-5 text-center iletisim" id="iletisim" style="background-color: #b5b897;">
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <br />
+            
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#anasayfa">Ana Sayfa</a></li>
+                <li class="breadcrumb-item active" aria-current="page">İletişim</li>
+              </ol>
+            </nav>
+  
+          </div>
+        </div>
+      </div>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.4/css/bootstrap.min.css">
 
-      <div class="container iletisim">
+      <div class="container iletisim" style="box-shadow: 0px 0px 10px 3px grey; text-align: center; color: white; border-radius: 3px;">
         <h3 class="mb-5 font-weight-bold">-İLETİŞİM-</h3>
         <hr>
 
@@ -292,8 +363,6 @@
       </div>
     </section>
         
-      
-
     <!--İLETİŞİM BİTİŞ-->
 
     <!--FOOTER BAŞLANGIÇ-->
